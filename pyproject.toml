@@ -8,7 +8,7 @@ authors = ["Coveo <blank@email.com>"]
 packages = [
     { include = "src" }
 ]
-  
+
 [tool.poetry.dependencies]
 python = "^3.10.5"
 kubernetes = "^26.1.0"
