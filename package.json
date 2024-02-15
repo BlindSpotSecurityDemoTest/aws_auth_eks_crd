@@ -1,4 +1,8 @@
 {
-	"name": "cifuzz",
-	"version": "1.2.0"
+	"name": "aws_auth_eks_crd",
+   	"version": "1.0.0"
+	"license": "MIT",
+  	"dependencies": {
+	    "cifuzz": "1.2.0",
+	  },
 }
