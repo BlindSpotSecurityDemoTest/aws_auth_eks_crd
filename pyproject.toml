@@ -27,7 +27,7 @@ pytest = "^6.2.4"
 pytest-cov = "^2.12.1"
 PyYAML = "^5.4.1"
 vulture = "^2.3"
-
+   
 [tool.pylint]
 [tool.pylint.message_control]
 disable = [
