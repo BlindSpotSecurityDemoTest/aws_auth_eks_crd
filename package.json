@@ -1,6 +1,6 @@
 {
 	"name": "aws_auth_eks_crd",
-   	"version": "1.0.0"
+   	"version": "1.0.0",
   	"dependencies": {
 	    "cifuzz": "1.2.0"
 	  }
