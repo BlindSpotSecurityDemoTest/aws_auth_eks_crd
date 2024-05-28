@@ -29,7 +29,7 @@ You can also test the operator locally in a minikube context.
 | WARNING: Make sure you change your context to minikube before doing these commands. |
 | --- |
 
-1. Create a test config-map `kubectl apply -f kubernetes/test/configmap.yaml`
+1. Create a test config-map `kubectl apply -f kubernetes/test/configmap.yaml` 
 2. Create the IamIdentityMapping crd `kubectl apply -f kubernetes/iamidentitymappings.yaml`
 3. Inspect the current state of the configmap with `kubectl get cm -n kube-system aws-auth -o yaml`
 4. Start the operator in minikube `kopf run --dev --debug --standalone --liveness=http://:8080/healthz src/kubernetes_operator/iam_mapping.py`
