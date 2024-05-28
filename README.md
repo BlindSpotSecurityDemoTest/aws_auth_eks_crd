@@ -13,7 +13,7 @@ To run all tests, use `poetry run pytest`
 
 To manually run all linters, use `pre-commit run` after staging your changes
 
----
+--- 
 **NOTE**
 
 Every commit will be checked against all linters with pre-commit. If it fails, simply fix the issues, stage new changes, and commit again.
