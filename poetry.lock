@@ -1,6 +1,14 @@
 [[package]]
+name = "Flask"
+version = "0.12.5"
+description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "aiohttp"
-version = "3.9.0"
+version = "3.7.4.post0"
 description = "Async http client/server framework (asyncio)"
 category = "main"
 optional = false
